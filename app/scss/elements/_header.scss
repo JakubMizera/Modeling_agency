@@ -1,0 +1,28 @@
+.header_container {
+    width: 1200px;
+    margin: 0 auto;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+}
+
+nav{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.menuBTN {
+    font-size: 30px;
+    padding: 20px;
+    font-weight: 400;
+    color: black;
+    &:hover{
+        color:orange;
+    }
+}
+
