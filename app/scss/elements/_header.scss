@@ -1,13 +1,19 @@
+header {
+    border-bottom: rgb(201, 193, 193) solid 1px;
+    box-shadow: 1px 1px 22px 0px rgba(0,0,0,0.25);
+}
+
 .header_container {
     width: 1200px;
     margin: 0 auto;
-    height: 150px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
 }
 
 ul {
     display: flex;
+    justify-content: space-between;
 }
 
 nav{
@@ -17,12 +23,23 @@ nav{
 }
 
 .menuBTN {
-    font-size: 30px;
+    font-size: 20px;
     padding: 20px;
     font-weight: 400;
     color: black;
-    &:hover{
+    &:hover {
         color:orange;
     }
 }
 
+li {
+    box-sizing: content-box;
+    padding: 40px;
+    border-right: rgb(201, 193, 193) solid 1px;
+    &:first-child {
+        border-left: rgb(201, 193, 193) solid 1px;
+    }
+    &:hover {
+        border-bottom: orange solid 3px;
+    }
+}
