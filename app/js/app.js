@@ -4,6 +4,7 @@ import "../scss/main.scss";
 
 import {Header} from "./main_page/header"
 import {Content} from "./main_page/content"
+import {Footer} from "./main_page/footer"
 
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
         <div className="pageContainer">
             <Header/>
             <Content/>
+            <Footer/>
         </div>
     )
 }
