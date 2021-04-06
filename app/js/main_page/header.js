@@ -11,25 +11,23 @@ const Header = () => {
             </a>
           </div>
           <nav>
-            <div className="main_menu">
-              <ul>
+            <ul>
+              <a href="#">
                 <li>
-                  <a href="#">
-                    <span className="menuBTN">MODELKI</span>
-                  </a>
+                  <span className="menuBTN">MODELKI</span>
                 </li>
+              </a>
+              <a href="#">
                 <li>
-                  <a href="#">
-                    <span className="menuBTN">CASTING</span>
-                  </a>
+                  <span className="menuBTN">CASTING</span>
                 </li>
+              </a>
+              <a href="#">
                 <li>
-                  <a href="#">
-                    <span className="menuBTN">KONTAKT</span>
-                  </a>
+                  <span className="menuBTN">KONTAKT</span>
                 </li>
-              </ul>
-            </div>
+              </a>
+            </ul>
           </nav>
         </div>
       </div>
