@@ -55,6 +55,7 @@ const Content = () => {
           <div className="phototile">
             <a href="#">
               <img src="../images/Photomodel2.jpg" alt="Kasia" />
+              {/* test */}
             </a>
             <span className="name">Małgorzata</span>
           </div>
