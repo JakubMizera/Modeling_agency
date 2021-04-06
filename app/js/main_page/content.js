@@ -7,47 +7,48 @@ const Content = () => {
         <div className="main_info">
           <h1>Modelki</h1>
         </div>
+        <div className="gap" id='topborder'></div>
         <div className="photogallery">
-          <div className="wrapper">
+          <a href='#' className="wrapper">
             <div className="phototile">
               <span>Monika</span>
             </div>
-          </div>
-          <div className="wrapper">
+          </a>
+          <a href='#' className="wrapper">
             <div className="phototile">
               <span>Monika</span>
             </div>
-          </div>
-          <div className="wrapper">
+          </a>
+          <a href='#' className="wrapper">
             <div className="phototile">
               <span>Monika</span>
             </div>
-          </div>
-          <div className="wrapper">
+          </a>
+          <a href='#' className="wrapper">
             <div className="phototile">
               <span>Monika</span>
             </div>
-          </div>
-          <div className="wrapper">
+          </a>
+          <a href='#' className="wrapper">
             <div className="phototile">
               <span>Monika</span>
             </div>
-          </div>
-          <div className="wrapper">
+          </a>
+          <a href='#' className="wrapper">
             <div className="phototile">
               <span>Monika</span>
             </div>
-          </div>
-          <div className="wrapper">
+          </a>
+          <a href='#' className="wrapper">
             <div className="phototile">
               <span>Monika</span>
             </div>
-          </div>
-          <div className="wrapper">
+          </a>
+          <a href='#' className="wrapper">
             <div className="phototile">
               <span>Monika</span>
             </div>
-          </div>
+          </a>
         </div>
         <div className="gap"></div>
       </div>
