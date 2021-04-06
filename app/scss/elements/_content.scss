@@ -27,13 +27,16 @@ main {
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 20px;
     padding: 0 20px;
-    @media only screen and (min-width: 768px) and (max-width: 1366px) {
+    @media only screen and (min-width: 1000px) and (max-width: 1366px) {
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(3, 1fr);
     }
-    @media only screen and (max-width: 767px) {
+    @media only screen and (min-width: 700px) and (max-width: 999px) {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(4, 1fr);
+    }
+    @media only screen and (max-width: 699px) {
+      grid-template-columns: repeat(1, 1fr);
     }
 
     .wrapper {

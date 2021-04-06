@@ -1,5 +1,5 @@
 header {
-  background-color:white;
+  background-color: white;
 
   .header_container {
     margin: 0 auto;
@@ -13,6 +13,28 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+
+    @media only screen and (max-width: 999px) {
+      .hamburger {
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 50%;
+        transform: translate(-5%, -50%);
+
+        .line {
+          width: 30px;
+          height: 2px;
+          background-color: black;
+          margin: 4px;
+        }
+      }
+      
+      li {
+        display: none;
+      }
+    }
 
     ul {
       height: 100%;
@@ -25,9 +47,9 @@ header {
         align-items: center;
         border-bottom: 1px solid white;
         border-right: 1px solid rgb(233, 231, 231);
-        padding: 20px;
+        padding: 1rem;
         &:first-child {
-            border-left: 1px solid rgb(233, 231, 231);
+          border-left: 1px solid rgb(233, 231, 231);
         }
 
         &:hover {
