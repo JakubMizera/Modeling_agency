@@ -49,7 +49,7 @@ const Content = () => {
             </div>
           </div>
         </div>
-        <div className='gap'>
+        <div className="gap"></div>
       </div>
     </main>
   );
