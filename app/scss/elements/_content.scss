@@ -20,7 +20,7 @@ main {
       font-weight: 600;
     }
   }
-  
+
   .photogallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -55,5 +55,9 @@ main {
         }
       }
     }
+  }
+
+  .gap {
+    height: 20px;
   }
 }

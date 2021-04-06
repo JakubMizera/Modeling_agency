@@ -49,6 +49,7 @@ const Content = () => {
             </div>
           </div>
         </div>
+        <div className='gap'>
       </div>
     </main>
   );
