@@ -1,12 +1,12 @@
 import React from "react";
 
-import {Form} from "./Form";
+import { Form } from "./Form";
 
 const Casting = () => {
   return (
     <main>
       <div className="container_casting">
-        <div className='main_casting'>
+        <div className="main_casting">
           <h1>Casting</h1>
           <p>
             Czy kiedykolwiek słyszałaś, że wyglądasz jak modelka? Czy uważasz,
@@ -20,11 +20,8 @@ const Casting = () => {
             kandydatek są automatycznie usuwane z naszej bazy.
           </p>
         </div>
-        <div className='form'>
-            <h2>Krok 1 - Podstawowe informacje</h2>
-            <div>
-                <Form/>
-            </div>
+        <div className="forms">
+          <Form />
         </div>
       </div>
     </main>
