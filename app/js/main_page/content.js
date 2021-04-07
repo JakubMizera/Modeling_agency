@@ -7,7 +7,6 @@ const Content = () => {
         <div className="main_info">
           <h1>Modelki</h1>
         </div>
-        <div className="gap" id='topborder'></div>
         <div className="photogallery">
           <a href='#' className="wrapper">
             <div className="phototile">
@@ -50,7 +49,6 @@ const Content = () => {
             </div>
           </a>
         </div>
-        <div className="gap"></div>
       </div>
     </main>
   );

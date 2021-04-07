@@ -26,7 +26,9 @@ main {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 20px;
-    padding: 0 20px;
+    padding: 20px;
+    border-top: 1px solid white;
+
     @media only screen and (min-width: 1000px) and (max-width: 1366px) {
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(3, 1fr);
@@ -73,13 +75,5 @@ main {
         }
       }
     }
-  }
-
-  .gap {
-    height: 20px;
-    width: 100%;
-  }
-  #topborder {
-    border-top: 1px solid white;
   }
 }
