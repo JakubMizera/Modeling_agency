@@ -6,11 +6,11 @@ const Form = () => {
     surname: "",
     email: "",
     phoneNumber: "",
-    city: "",
-    birthDate: "",
+    city: ""
   });
 
   const handleChange = (e) => {
+      
     const { name, value } = e.target;
     setForm((prevState) => {
       return {
@@ -18,6 +18,7 @@ const Form = () => {
         [name]: value,
       };
     });
+    console.log(form);
   };
   return (
     <form>
@@ -78,6 +79,7 @@ const Form = () => {
           />
         </label>
       </div>
+      <h2>Krok 2 - wymiary</h2>
     </form>
   );
 };
