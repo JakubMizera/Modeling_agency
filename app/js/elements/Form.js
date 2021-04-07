@@ -6,11 +6,20 @@ const Form = () => {
     surname: "",
     email: "",
     phoneNumber: "",
-    city: ""
+    city: "",
+    hips: "",
+    waist: "",
+    chest: "",
+    height: "",
+    about: "",
+    hobby: "",
+    face: "",
+    body: "",
+    leftProfile: "",
+    rightProfile: ""
   });
 
   const handleChange = (e) => {
-      
     const { name, value } = e.target;
     setForm((prevState) => {
       return {
@@ -23,7 +32,7 @@ const Form = () => {
   return (
     <form>
       <h2>Krok 1 - Podstawowe informacje</h2>
-      <div className='form_box'>
+      <div className="form_box">
         <label>
           Imię
           <input
@@ -79,7 +88,99 @@ const Form = () => {
           />
         </label>
       </div>
-      <h2>Krok 2 - wymiary</h2>
+      <h2>Krok 2 - Wymiary</h2>
+      <div className="form_box">
+        <label>
+          Biodra
+          <input
+            type="number"
+            name="hips"
+            min="50"
+            value={form.hips}
+            onChange={handleChange}
+          />
+        </label>
+        <label>
+          Talia
+          <input
+            type="number"
+            name="waist"
+            min="50"
+            value={form.waist}
+            onChange={handleChange}
+          />
+        </label>
+        <label>
+          Klatka piersiowa
+          <input
+            type="number"
+            name="chest"
+            min="50"
+            value={form.chest}
+            onChange={handleChange}
+          />
+        </label>
+        <label>
+          Wzrost
+          <input
+            type="number"
+            name="height"
+            min="100"
+            value={form.height}
+            onChange={handleChange}
+          />
+        </label>
+      </div>
+      <h2>Krok 3 - Coś o sobie</h2>
+      <div className="form_box">
+        <label>
+          Kilka słów o sobie
+          <textarea name="about" value={form.about} onChange={handleChange} />
+        </label>
+        <label>
+          Twoje hobby
+          <textarea name="hobby" value={form.hobby} onChange={handleChange} />
+        </label>
+      </div>
+      <h2>Krok 4 - Twoje zdjęcia</h2>
+      <div className="form_box">
+        <label>
+          Twarz
+          <input
+            type="file"
+            name="face"
+            value={form.face}
+            onChange={handleChange}
+          />
+        </label>
+        <label>
+          Sylwetka
+          <input
+            type="file"
+            name="body"
+            value={form.body}
+            onChange={handleChange}
+          />
+        </label>
+        <label>
+          Lewy profil
+          <input
+            type="file"
+            name="leftProfile"
+            value={form.leftProfile}
+            onChange={handleChange}
+          />
+        </label>
+        <label>
+          Prawy profil
+          <input
+            type="file"
+            name="rightProfile"
+            value={form.rightProfile}
+            onChange={handleChange}
+          />
+        </label>
+      </div>
     </form>
   );
 };
