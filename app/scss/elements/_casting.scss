@@ -1,0 +1,22 @@
+.container_casting {
+  
+  .main_casting {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        padding: 20px;
+    }
+
+    p {
+        font-size: 1.3rem;
+        line-height: 2rem;
+        text-align: justify;
+        padding: 20px;
+        max-width: 60%;
+        font-weight: 300;
+    }
+  }
+}

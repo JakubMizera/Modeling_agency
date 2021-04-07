@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "../scss/main.scss";
 
 import {Header} from "./elements/header"
-import {Content} from "./elements/content"
+import {Casting} from "./elements/casting_box"
 import {Footer} from "./elements/footer"
 
 
@@ -11,7 +11,7 @@ const App = () => {
     return (
         <div className="pageContainer">
             <Header/>
-            <Content/>
+            <Casting/>
             <Footer/>
         </div>
     )
