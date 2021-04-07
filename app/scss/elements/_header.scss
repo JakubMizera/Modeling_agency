@@ -65,6 +65,13 @@ header {
           color: black;
           font-weight: 300;
         }
+
+        @media only screen and (max-width: 999px) {
+          a {
+            display: none;
+            border: none;
+          }
+        }
       }
     }
   }

@@ -11,7 +11,7 @@ const Header = () => {
             </a>
           </div>
           <nav>
-            <div className='hamburger'>
+            <div className='hamburger' onClick='toggle'>
               <div className='line'></div>
               <div className='line'></div>
               <div className='line'></div>
