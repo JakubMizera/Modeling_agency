@@ -55,4 +55,22 @@ form {
       }
     }
   }
+
+  button {
+    width: 20%;
+    height: 60px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 3%;
+    font-weight: 600;
+    font-family: 'Lato';
+    font-size: 1.4rem;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 1px 1px 3px grey;
+    &:hover {
+      border: 1px solid red;
+    }
+  }
 }

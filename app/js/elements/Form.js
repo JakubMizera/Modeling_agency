@@ -29,8 +29,12 @@ const Form = () => {
     });
     console.log(form);
   };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  }
   return (
-    <form>
+    <form onSubmit={handleSubmit}>
       <h2>Krok 1 - Podstawowe informacje</h2>
       <div className="form_box">
         <label>
@@ -181,6 +185,7 @@ const Form = () => {
           />
         </label>
       </div>
+      <button type="submit">Wyślij</button>
     </form>
   );
 };
