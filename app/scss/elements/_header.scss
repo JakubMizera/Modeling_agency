@@ -43,7 +43,7 @@ header {
     ul {
       height: 100%;
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: 3fr 3fr 3fr 1fr 1fr;
 
       a {
         display: flex;
@@ -60,10 +60,18 @@ header {
           border-bottom: 1px solid orange;
         }
 
-        span {
+        .menuBTN {
           font-size: 1.5rem;
           color: black;
           font-weight: 300;
+        }
+
+        li {
+          color: black;
+          font-size: 1.8rem;
+          &:hover {
+            color: orange;
+          }
         }
 
         @media only screen and (max-width: 999px) {

@@ -1,4 +1,6 @@
 import React from "react";
+import { FaInstagram } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -30,6 +32,16 @@ const Header = () => {
               <a href="#">
                 <li>
                   <span className="menuBTN">KONTAKT</span>
+                </li>
+              </a>
+              <a href="#">
+                <li>
+                  <FaInstagram/>
+                </li>
+              </a>
+              <a href="#">
+                <li>
+                  <FaFacebookSquare/>
                 </li>
               </a>
             </ul>
