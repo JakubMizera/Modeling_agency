@@ -7,6 +7,7 @@ form {
   h2 {
     font-size: 1.8rem;
     padding: 40px;
+    text-align: center;
   }
 
   .form_box {
@@ -15,6 +16,10 @@ form {
     grid-gap: 40px 30px;
     width: 60%;
     padding: 20px;
+    @media only screen and (max-width: 999px) {
+      grid-template-columns: repeat(1, 1fr);
+      width: 80%;
+    }
 
     label {
       display: flex;
@@ -71,6 +76,9 @@ form {
     box-shadow: 1px 1px 3px grey;
     &:hover {
       border: 1px solid red;
+    }
+    @media only screen and (max-width: 999px) {
+      width: 50%;
     }
   }
 }
