@@ -43,6 +43,14 @@ form {
           border: 1px solid red;
         }
       }
+
+      .files {
+        height: 36px;
+        width: 80%;
+        @media only screen and (max-width: 999px) {
+          width: 100%;
+        }
+      }
     }
 
     textarea {

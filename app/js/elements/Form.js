@@ -16,7 +16,7 @@ const Form = () => {
     face: "",
     body: "",
     leftProfile: "",
-    rightProfile: ""
+    rightProfile: "",
   });
 
   const handleChange = (e) => {
@@ -32,7 +32,7 @@ const Form = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-  }
+  };
   return (
     <form onSubmit={handleSubmit}>
       <h2>Krok 1 - Podstawowe informacje</h2>
@@ -151,6 +151,7 @@ const Form = () => {
         <label>
           Twarz
           <input
+            className="files"
             type="file"
             name="face"
             value={form.face}
@@ -160,6 +161,7 @@ const Form = () => {
         <label>
           Sylwetka
           <input
+            className="files"
             type="file"
             name="body"
             value={form.body}
@@ -169,6 +171,7 @@ const Form = () => {
         <label>
           Lewy profil
           <input
+            className="files"
             type="file"
             name="leftProfile"
             value={form.leftProfile}
@@ -178,6 +181,7 @@ const Form = () => {
         <label>
           Prawy profil
           <input
+            className="files"
             type="file"
             name="rightProfile"
             value={form.rightProfile}
