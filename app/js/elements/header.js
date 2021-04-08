@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 
 const Header = () => {
+  
+  const [isActive, setActive] = useState("false");
+
+  const handleToggle = () => {
+    setActive(!isActive);
+  };
+
   return (
     <header>
       <div className="header_container">
@@ -12,12 +19,12 @@ const Header = () => {
           </a>
         </div>
         <nav>
-          <div className="hamburger">
+          <div className="hamburger" onClick={handleToggle}>
             <div className="line"></div>
             <div className="line"></div>
             <div className="line"></div>
           </div>
-          <ul>
+          <ul className={isActive ? "close" : "open"}>
             <a href="#">
               <li>
                 <span className="menuBTN">MODELKI</span>
