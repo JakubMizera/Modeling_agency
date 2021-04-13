@@ -43,6 +43,7 @@
     "last 2 versions"
   ],
   "dependencies": {
+    "google-map-react": "^2.1.9",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-icons": "^4.2.0"
