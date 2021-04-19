@@ -9,43 +9,13 @@ const Content = () => {
         </div>
         <div className="photogallery">
           <a href='#' className="wrapper">
-            <div className="phototile">
-              <span>Monika</span>
+            <div className="phototile tatiana">
+              <span>Tatiana</span>
             </div>
           </a>
           <a href='#' className="wrapper">
-            <div className="phototile">
-              <span>Monika</span>
-            </div>
-          </a>
-          <a href='#' className="wrapper">
-            <div className="phototile">
-              <span>Monika</span>
-            </div>
-          </a>
-          <a href='#' className="wrapper">
-            <div className="phototile">
-              <span>Monika</span>
-            </div>
-          </a>
-          <a href='#' className="wrapper">
-            <div className="phototile">
-              <span>Monika</span>
-            </div>
-          </a>
-          <a href='#' className="wrapper">
-            <div className="phototile">
-              <span>Monika</span>
-            </div>
-          </a>
-          <a href='#' className="wrapper">
-            <div className="phototile">
-              <span>Monika</span>
-            </div>
-          </a>
-          <a href='#' className="wrapper">
-            <div className="phototile">
-              <span>Monika</span>
+            <div className="phototile gaba">
+              <span>Gaba</span>
             </div>
           </a>
         </div>

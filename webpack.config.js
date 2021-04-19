@@ -3,7 +3,7 @@ const autoprefixer = require('autoprefixer');
 const Html = require('html-webpack-plugin');
 
 const entryPath = "app";
-const entryFile = "contact.js";
+const entryFile = "app.js";
 
 
 module.exports = {

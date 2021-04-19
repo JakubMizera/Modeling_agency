@@ -10,29 +10,19 @@ main {
 
   .main_info {
     height: 180px;
-    margin: 0 auto;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    border-bottom: 1px solid white;
   }
 
   .photogallery {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
     padding: 20px;
-    border-top: 1px solid white;
 
-    @media only screen and (min-width: 1000px) and (max-width: 1366px) {
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(3, 1fr);
-    }
-    @media only screen and (min-width: 700px) and (max-width: 999px) {
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(4, 1fr);
-    }
     @media only screen and (max-width: 699px) {
       grid-template-columns: repeat(1, 1fr);
     }
@@ -40,17 +30,22 @@ main {
     .wrapper {
       overflow: hidden;
     
+      .tatiana {
+        background-image: url(../images/titaSweter.png);
+      }
+      .gaba {
+        background-image: url(../images/PrzycieteGaba.png);
+      }
 
       .phototile {
-        background-image: url(../images/Photomodel2.jpg);
+        
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
-        height: 634px;
-        width: 440px;
-        // display: flex;
-        // justify-content: center;
-        // align-items: flex-end;
+        height: 70vh;
+        min-height: 50vh;
+        width: 30vw;
+        min-width: 300px;
         transform: scale(1);
         transition: all 0.3s ease-in-out;
         overflow: hidden;
@@ -67,7 +62,6 @@ main {
           color: white;
           font-size: 2rem;
           text-align: center;
-          // padding: 30px;
         }
       }
     }
