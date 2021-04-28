@@ -15,7 +15,7 @@ const Header = () => {
       <div className="header_container">
         <div className="logo">
           <a href="#">
-            <img src="../images/logo.png" alt="pagelogo" />
+            <img src="../images/logo2.jpg" alt="pagelogo" />
           </a>
         </div>
         <nav>
