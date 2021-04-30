@@ -79,7 +79,11 @@ header {
       border-right: 1px solid $colorBorderHeader;
       padding: 1rem;
       &:first-child {
-        border-left: 1px solid $colorBorderHeader;
+        border-left: 2px solid $colorBorderHeader;
+      }
+
+      &:last-child {
+        border-right: 2px solid $colorBorderHeader;
       }
 
       &:hover {

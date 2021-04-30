@@ -1,10 +1,11 @@
 footer {
-    height: 40px;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(230, 228, 228);
     p, a{
         text-align: center;
-        color: rgb(172, 158, 158);
+        color: rgb(104, 104, 104);
     }
 }
