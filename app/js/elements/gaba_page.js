@@ -5,7 +5,7 @@ const Gaba = () => {
     <main>
       <div className="container_girls">
         <div className="description">
-          <h2>Tatiana</h2>
+          <h2>Gaba</h2>
           <div className="info_table">
             <div className="info_box">
               <ul>

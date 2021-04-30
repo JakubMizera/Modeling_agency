@@ -3,7 +3,7 @@ const autoprefixer = require('autoprefixer');
 const Html = require('html-webpack-plugin');
 
 const entryPath = "app";
-const entryFile = "tita.js";
+const entryFile = "gaba.js";
 
 
 module.exports = {
