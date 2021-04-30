@@ -10,7 +10,7 @@
     justify-content: flex-start;
     align-items: center;
     max-width: 80%;
-    padding: 20px;
+    padding: 40px 20px;
 
     h2 {
       color: white;
@@ -18,7 +18,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      padding-bottom: 20px;
+      padding-bottom: 40px;
       &::before {
         content: "";
         display: block;
@@ -44,7 +44,8 @@
       grid-template-columns: repeat(6, 1fr);
       border-top: 1px solid white;
       border-left: 1px solid white;
-      background-color: rgb(88, 87, 87);
+      background-color: rgb(117, 117, 117);
+      box-shadow: 0px 0px 18px -5px rgba(129, 129, 129, 0.64);
       @media only screen and (max-width: 999px) {
         grid-template-columns: repeat(3, 1fr);
       }
@@ -72,7 +73,7 @@
   .photos {
     display: flex;
     justify-content: center;
-    max-width: 80%;
+    max-width: 90%;
     padding: 20px 0;
     @media only screen and (max-width: 999px) {
       flex-direction: column;
@@ -97,5 +98,7 @@
     font-weight: 300;
     max-width: 75%;
     line-height: 1.5rem;
+    padding-top: 20px;
+    padding-bottom: 40px;
   }
 }
