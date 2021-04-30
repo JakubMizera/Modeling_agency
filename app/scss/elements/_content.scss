@@ -1,5 +1,5 @@
 main {
-  background-color: rgb(158, 158, 158);
+  background-color: $colorBackground;
 }
 
 .container {
@@ -58,7 +58,7 @@ main {
           bottom: 5%;
           left: 50%;
           transform: translate(-50%, -50%);
-          color: white;
+          color: $colorText;
           font-size: 2rem;
           text-align: center;
         }

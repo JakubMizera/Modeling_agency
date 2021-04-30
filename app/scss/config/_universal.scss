@@ -1,23 +1,23 @@
 :root {
-    font-family: 'Lato';
+  font-family: "Lato";
+}
+
+* {
+  box-sizing: border-box;
 }
 
 a {
-    text-decoration: none;
-    overflow: hidden;
+  text-decoration: none;
+  overflow: hidden;
 }
 
 img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-*{
-    box-sizing: border-box;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 h1 {
-    font-size: 80px;
-    font-weight: 600;
-    color: white;
-  }
+  font-size: 80px;
+  font-weight: 600;
+  color: $colorText;
+}

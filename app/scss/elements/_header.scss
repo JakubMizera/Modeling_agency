@@ -1,5 +1,5 @@
 header {
-  background-color: white;
+  background-color: $colorBackgroundSecondary;
   position: sticky;
   top: 0;
   z-index: 3;
@@ -16,6 +16,9 @@ header {
     @media only screen and (max-width: 999px) {
       width: 100%;
       justify-content: space-around;
+    }
+    .logo {
+      max-width: 132px;
     }
   }
 
@@ -58,7 +61,7 @@ header {
     .open {
       @media only screen and (max-width: 999px) {
         display: flex;
-        background-color: white;
+        background-color: $colorBackgroundSecondary;
         flex-direction: column;
         position: absolute;
         top: 100%;
@@ -71,15 +74,16 @@ header {
       display: flex;
       justify-content: center;
       align-items: center;
-      border-bottom: 1px solid white;
-      border-right: 1px solid rgb(233, 231, 231);
+      border-bottom: 2px solid $colorBorderHeader;
+      border-top: 2px solid $colorBorderHeader;
+      border-right: 1px solid $colorBorderHeader;
       padding: 1rem;
       &:first-child {
-        border-left: 1px solid rgb(233, 231, 231);
+        border-left: 1px solid $colorBorderHeader;
       }
 
       &:hover {
-        border-bottom: 1px solid orange;
+        border-bottom: 2px solid $colorHoover;
       }
 
       @media only screen and (max-width: 999px) {
@@ -96,9 +100,12 @@ header {
         font-size: 1.3rem;
         color: black;
         font-weight: 300;
+        &:hover {
+          color: $colorHoover;
+        }
         @media only screen and (max-width: 999px) {
           &:hover {
-            color: orange;
+            color: $colorHoover;
           }
         }
       }
@@ -107,7 +114,7 @@ header {
         color: black;
         font-size: 1.8rem;
         &:hover {
-          color: orange;
+          color: $colorHoover;
         }
       }
     }
