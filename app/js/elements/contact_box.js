@@ -1,9 +1,6 @@
 import React, {Component} from "react";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
-import GoogleMapReact from 'google-map-react';
-
-const GoogleMap = ({ text }) => <div>{text}</div>;
 
 const Contact = () => {
   return (
@@ -11,7 +8,7 @@ const Contact = () => {
       <div className="contact_wrapper">
         <h1>Kontakt</h1>
         <p>
-          Jeśli spodobały Ci się modelki Wojta i jesteś zainteresowany
+          Jeśli spodobały Ci się modelki Divine Shapes i jesteś zainteresowany
           współpracą, skontaktuj się z nami. Jesteśmy otwarci na wszystkie
           pytania oraz sugestie.
         </p>
@@ -19,8 +16,8 @@ const Contact = () => {
       <div className="contact_container">
         <div className="contact_box">
           <h2>managing director</h2>
-          <span>Wojciech Szymanek</span>
-          <span>wojtek@gmail.com</span>
+          <span>Jan Nowak</span>
+          <span>JanNowak@gmail.com</span>
         </div>
         <div className="socials">
           <h2>social media</h2>
