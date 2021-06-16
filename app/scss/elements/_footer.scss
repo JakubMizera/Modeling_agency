@@ -1,16 +1,17 @@
 footer {
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(230, 228, 228);
-    p{
-        text-align: center;
-        color: rgb(104, 104, 104);
-        a {
-            &:hover {
-                color: rgb(54, 54, 54);
-            }
-        }
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(230, 228, 228);
+  p {
+    text-align: center;
+    color: rgb(104, 104, 104);
+    a {
+      color: rgb(54, 54, 54);
+      &:hover {
+        color: rgb(54, 54, 54);
+      }
     }
+  }
 }
